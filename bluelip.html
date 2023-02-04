@@ -1,0 +1,113 @@
+<html>
+<head>
+  <title>Blue Lipstick</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 40px;
+      background-image: url(header-background.jpg);
+      background-size: cover;
+      color: white;
+    }
+    header h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      margin: 0 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a {
+      text-decoration: none;
+      color: blue;
+    }
+    main {
+      padding: 40px;
+    }
+    section {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 0 10px lightgray;
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: lightgray;
+      color: white;
+    }
+    footer p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blue Lipstick</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#buy-now">Buy Now</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Introducing the boldest shade in your makeup collection – our blue lipstick! Whether you're looking for a daring pop of color or a statement lip, our blue lipstick has got you covered.</p>
+      <img src="~/Desktop/bluelip.png" alt="Blue Lipstick">
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Highly pigmented formula</li>
+        <li>Long-lasting wear</li>
+        <li>Complements all skin tones</li>
+        <li>Easy to apply</li>
+      </ul>
+      <img src="features-image.jpg" alt="Blue Lipstick">
+    </section>
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <p>"I love this lipstick! The blue shade is so bold and bright, and it stays put for hours. I would definitely recommend it to anyone looking for a statement lip."</p>
+      <p>"This lipstick is amazing! The formula is creamy and glides on smoothly, and the blue shade is so vibrant. I've received so many compliments on it."</p>
+    </section>
+    <section id="buy-now">
+      <h2>Buy Now</h2>
+      <p>Ready to add a bold and beautiful touch to your look? Buy our blue lipstick now and make a statement wherever you go!</p>
+      <form action="https://www.your-payment-processor.com/payment" method="post">
+        <input type="hidden" name="product" value="Blue Lipstick">
+        <input type="hidden" name="price" value="19.99">
+        <input type="submit" value="Add to Cart">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Blue Lipstick</p>
+  </footer>
+</body>
+</html>
+
